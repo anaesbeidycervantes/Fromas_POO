@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        #header {
+            background-color: #6b5b95;
+            /* Morado oscuro */
+            color: #fff;
+            /* Texto blanco */
+            padding: 10px;
+        }
+
+        #footer {
+            background-color: #6b5b95;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .canvas-container {
+            text-align: center;
+            /* Centra el contenido horizontalmente */
+        }
+
+        .canvas-title {
+            margin-top: 5px;
+            /* Ajusta el margen superior */
+        }
+    </style>
+    <title>Intro Canvas 2d</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <h1>Intro Canvas 2d</h1>
+        </div>
+    </header>
+
+    <main class="container flex column mt-3 shadow rounded-3 p-1">
+        <div class="d-flex justify-content-center flex-row mb-3">
+            <h1>Objetos 2d mediante POO</h1>
+        </div>
+        <div class="d-flex flex-row shadow-sm mb-2 p-3 justify-content-center justify-content-around">
+            <div class="canvas-container">
+                <h5 class="canvas-title">Objeto 2d</h5>
+                <canvas class="border shadow" id="canvasPOO" ></canvas>
+            </div>
+            <div class="canvas-container">
+                <h5 class="canvas-title">Objeto Random</h5>
+                <canvas class="border shadow" id="canvasPOO_1" ></canvas>
+            </div>
+            <div class="canvas-container">
+                <h5 class="canvas-title">Múltiples Objetos</h5>
+                <canvas class="border shadow" id="canvasPOO_2" ></canvas>
+            </div>
+            
+        </div>
+
+        
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>Derechos Reservados &copy; Ana Esbeidy Cervantes Acosta</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
